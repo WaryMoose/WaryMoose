@@ -71,15 +71,15 @@ nav ul li a {
 }
 .hov {
     opacity: 0.65;
-}
-.hov:hover {
-    opacity: 1.0;
-    /*box-shadow: 0vw 0vw 2vw #7EA8CD;*/
     -webkit-transition: all 0.8s ease 0s;
     -moz-transition: all 0.8s ease 0s;
     -ms-transition: all 0.8s ease 0s;
     -o-transition: all 0.8s ease 0s;
     transition: all 0.8s ease 0s;
+}
+.hov:hover {
+    opacity: 1.0;
+    /*box-shadow: 0vw 0vw 2vw #7EA8CD;*/
 }
 #scroll-abt {
     -webkit-transition: all 1.2s ease 0s;
