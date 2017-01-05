@@ -81,15 +81,19 @@ nav ul li a {
     -o-transition: all 0.8s ease 0s;
     transition: all 0.8s ease 0s;
 }
-#scroll-abt:hover {
-    background: #444;/*
-    color: #000;*/
-    border-radius: 25px;
+#scroll-abt {
     -webkit-transition: all 1.2s ease 0s;
     -moz-transition: all 1.2s ease 0s;
     -ms-transition: all 1.2s ease 0s;
     -o-transition: all 1.2s ease 0s;
     transition: all 1.2s ease 0s;
+}
+#scroll-abt:hover {
+    /*background: rgba(68,68,68, 0.4);*/
+    background: rgba(0,0,0, 0.06);
+    color: #000;
+    border-radius: 25px;
+    transform: scale(1.1);
 }
 
 /* Custom Horizontal Rule */
