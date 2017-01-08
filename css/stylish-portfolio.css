@@ -393,3 +393,18 @@ footer {
     text-decoration: none;
     color: inherit;
 }
+@media (max-width: 440px) {
+    #sidebar-wrapper.active {
+        width: 100%;
+    }
+    .sidebar-nav {
+        width: 100%;
+        text-align: center;
+    }
+    .sidebar-nav > .sidebar-brand {
+        text-align: left;
+    }
+    #homebtn{
+        margin-top: 25%;
+    }
+}
